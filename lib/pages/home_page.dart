@@ -83,7 +83,7 @@ class _MainPageState extends State<MainPage> {
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: [
-                CoffeeTypess(coffe_type: "Cappuccino"),
+                CoffeeTypess(coffe_type: "Cappuccinodddd "),
                 CoffeeTypess(coffe_type: "Latte"),
                 CoffeeTypess(coffe_type: "Milk schake"),
                 CoffeeTypess(coffe_type: "Chokolate milk"),
@@ -96,7 +96,9 @@ class _MainPageState extends State<MainPage> {
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: [
-                  CoffeeTile(),
+                  CoffeeTile(drink_description: "with nothing",drink_name: "Tee",drink_price: "12",img_path:"lib/img/nathan-dumlao-nBJHO6wmRWw-unsplash.jpg" ,),
+                  CoffeeTile(drink_description: "with nothing",drink_name: "Tee",drink_price: "00",img_path:"lib/img/nathan-dumlao-nBJHO6wmRWw-unsplash.jpg" ,),
+                  CoffeeTile(drink_description: "with nothing",drink_name: "Tee",drink_price: "10",img_path:"lib/img/nathan-dumlao-nBJHO6wmRWw-unsplash.jpg" ,),
               
                 ],
               )
