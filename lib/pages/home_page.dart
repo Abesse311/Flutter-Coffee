@@ -83,7 +83,7 @@ class _MainPageState extends State<MainPage> {
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: [
-                CoffeeTypess(coffe_type: "Cappuccino"),
+                CoffeeTypess(coffe_type: "Cappuccinodddd "),
                 CoffeeTypess(coffe_type: "Latte"),
                 CoffeeTypess(coffe_type: "Milk schake"),
                 CoffeeTypess(coffe_type: "Chokolate milk"),
