@@ -96,7 +96,9 @@ class _MainPageState extends State<MainPage> {
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: [
-                  CoffeeTile(),
+                  CoffeeTile(drink_description: "with nothing",drink_name: "Tee",drink_price: "12",img_path:"lib/img/nathan-dumlao-nBJHO6wmRWw-unsplash.jpg" ,),
+                  CoffeeTile(drink_description: "with nothing",drink_name: "Tee",drink_price: "00",img_path:"lib/img/nathan-dumlao-nBJHO6wmRWw-unsplash.jpg" ,),
+                  CoffeeTile(drink_description: "with nothing",drink_name: "Tee",drink_price: "10",img_path:"lib/img/nathan-dumlao-nBJHO6wmRWw-unsplash.jpg" ,),
               
                 ],
               )
