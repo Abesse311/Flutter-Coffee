@@ -1,4 +1,4 @@
-// ignore_for_file: use_key_in_widget_constructors
+// ignore_for_file: prefer_const_constructors_in_immutables, non_constant_identifier_names, use_key_in_widget_constructors
 
 import 'package:flutter/material.dart';
 
